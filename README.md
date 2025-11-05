@@ -12,29 +12,13 @@ You can interact with Nimo using simple commands:
 
 | Command | Description |
 |----------|-------------|
-| `*download youtube videos` | Download YouTube videos easily. |
 | `*shut down` | Shuts down the assistant. |
 | `*close` | Closes **NimoAssistant.exe**. |
+| `*Nimo` | cleans cpmmand shell. |
 | `*mode` | Switch between normal mode and **learning mode** (you can teach Nimo new things). |
 | `*google` | Opens Google in your browser. |
 | `*logout` | Signs you out of the assistant. |
 | `*reset` | Resets your saved data (name, age, gender, and search history). |
-| `*play music` | Plays your favorite song. |
-
----
-
-## How to Fix Music Playback
-
-If you see this error:  
-> `'a.mp3' is not recognized as an internal or external command, operable program or batch file.`
-
-Follow these steps:
-
-1. Copy your favorite song.  
-2. Rename the file to **a.mp3**.  
-3. Right-click on **NimoAssistant-shortcut.exe** and select **Open file location**.  
-4. Paste your **a.mp3** file inside the **NimoAssistant** folder.  
-5. Done! You’ve successfully added your favorite music.
 
 ---
 
@@ -46,10 +30,10 @@ Just type `mode` to toggle between **Normal Mode** and **Learning Mode**.
 ---
 
 ## ⚙️ Version Info
-
-**Version:** 0.2.0  
-**Release Date:** *Coming Soon — 20 August 2020*  
+**Current Release Version:** 1.9.1b |
+**Target Version:** 0.2.0  
+**Release Date:** *Coming Soon*  
 
 ---
 
-© 2020 NimoAssistant — *The Educational A.I. Virtual Assistant*
+© 2025 NimoAssistant — *The Educational A.I. Virtual Assistant*
