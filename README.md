@@ -11,7 +11,7 @@
 ### 🧠 Intelligent Core
 
 - **Powered by Groq AI**  
-  Utilizes the **Llama 3.3 70B model** via Groq’s LPU Inference Engine for lightning-fast, human-like responses with extremely low latency.
+  Utilizes the ** openai oss 20b** via Groq’s LPU Inference Engine for lightning-fast, human-like responses with extremely low latency.
 
 - **Hive Mind Learning**  
   When one user teaches Nimo something new, the knowledge is saved to the cloud and instantly shared with all users — *learn once, answer forever*.
