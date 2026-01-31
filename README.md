@@ -82,4 +82,4 @@ The Hive Mind creates a collaborative knowledge ecosystem that learns and improv
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the License - see the [LICENSE](LICENSE) file for details.
