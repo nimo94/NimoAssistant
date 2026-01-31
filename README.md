@@ -1,117 +1,85 @@
+<div align="center">
+
 # Nimo Assistant
 
-![Nimo Assistant Bannerpage](https://i.imgur.com/a43QWQJ.png)
+![Nimo Assistant Banner](https://i.imgur.com/a43QWQJ.png)
 
-**Nimo Assistant** is a powerful, cloud-synced virtual assistant that has evolved from a simple voice script into a polished, full-featured desktop application. It combines **Groq’s ultra-fast LPU inference**, **local system automation**, **real-time monitoring**, and a unique **Hive Mind shared-knowledge engine** to deliver instant, intelligent responses across devices and users.
+**A powerful, cloud-synced virtual assistant powered by AI**
 
----
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-## 🚀 Key Features
+</div>
 
-### 🧠 Intelligent Core
+## Overview
 
-- **Powered by Groq AI**  
-  Utilizes the **openai oss 20b** via Groq’s LPU Inference Engine for lightning-fast, human-like responses with extremely low latency.
+Nimo Assistant is a sophisticated desktop application that combines cutting-edge AI technology with practical system automation. Built on Groq's ultra-fast LPU inference engine and featuring a unique Hive Mind shared-knowledge system, Nimo delivers instant, intelligent responses across devices and users.
 
-- **Hive Mind Learning**  
-  When one user teaches Nimo something new, the knowledge is saved to the cloud and instantly shared with all users — *learn once, answer forever*.
+## ✨ Features
 
-- **Math & Coding Expert**  
-  Designed to break down complex math problems step-by-step and write clean, functional, well-structured code across multiple languages.
+### 🧠 AI-Powered Intelligence
 
----
+- **Groq AI Integration** - Lightning-fast responses powered by OpenAI OSS 20B model via Groq's LPU Inference Engine
+- **Hive Mind Learning** - Cloud-based knowledge sharing system where insights learned by one user benefit the entire community
+- **Advanced Problem Solving** - Expert-level assistance with mathematics, coding, and complex analytical tasks
 
-## 🖥️ Modern UI (v3.0 Enhanced)
+### 🖥️ Modern User Interface
 
-- **Messenger-Style Chat Interface**  
-  Clean, bubble-based chat UI with rich text formatting (bold text, headers, tables, and structured output).
+- **Messenger-Style Chat** - Clean, intuitive bubble-based interface with rich text formatting support
+- **File Management** - Smart file preview chips with drag-and-drop functionality
+- **System Monitoring** - Real-time dashboard displaying CPU usage, RAM consumption, and system health
+- **Auto-Updates** - Seamless version management with splash screen and automatic update checks
 
-- **Smart File Previews**  
-  Visual “chips” for uploaded files and images, allowing users to review content before sending.
+### 🛠️ Integrated Tools
 
-- **Real-Time System Dashboard**  
-  Sidebar display showing CPU usage, RAM consumption, and overall system health.
+- **YouTube Downloader** - Download videos with visual progress tracking powered by `yt-dlp`
+- **Vision Mode** - Image analysis and OCR capabilities using Llama 3.2 Vision
+- **Smart Compression** - Automatic optimization for images and large files to ensure API compatibility
+- **App Launcher** - Quick access to system applications and tools via chat commands
 
-- **Splash Screen & Auto-Update Checks**  
-  Smooth startup animations with automatic version validation on launch.
+## 🧬 Hive Mind Technology
 
----
+The Hive Mind creates a collaborative knowledge ecosystem that learns and improves over time:
 
-## 🛠️ Tools & Utilities
+1. **Query Processing** - User prompts are sanitized and converted to searchable keys
+2. **Cloud Lookup** - System checks the shared knowledge base for existing answers
+3. **Instant Response** - Pre-cached answers are delivered immediately when available
+4. **Continuous Learning** - New queries are processed, stored, and shared with all users
 
-- **YouTube Downloader**  
-  Built on `yt-dlp` with a visual progress bar and background execution.
+**Result**: A self-improving, community-driven knowledge base that gets smarter with every interaction.
 
-- **Vision Mode**  
-  Drag-and-drop image analysis powered by **Llama 3.2 Vision** for OCR and visual understanding.
+## 🚀 Getting Started
 
-- **Smart Compression Engine**  
-  Automatically compresses images and truncates large text files to prevent API and token-limit errors.
+### Installation
 
-- **App Launcher**  
-  Launch applications such as Chrome, Spotify, and system tools directly from chat commands.
+1. Download `NimoAssistant.exe` from the [Releases](https://github.com/nimo94/NimoAssistant/releases) page
+2. Run the installer
+3. Launch the application (auto-updater will ensure you have the latest version)
+4. Log in or register to enable Hive Mind cloud synchronization
 
----
+## 📊 Version History
 
-## 📜 Version History
-
-| Version | Status   | Key Changes |
-|--------|----------|-------------|
-| **v3.0** | Current | Groq Integration, Openai oss 20b, Chat UI Overhaul (Segoe UI), File Staging Area, Image Compression |
-| **v2.5** | Stable  | Fixed input loops, Added spam protection, Dedicated login GUI |
-| **v2.1** | Legacy  | Initial Dropbox Sync, Basic file uploading |
-| **v2.0** | Legacy  | Full GUI (CustomTkinter), Multi-threading, System Dashboard |
-| **v1.9** | Beta    | Migration to async text generation |
-
----
-
-## 🧠 Deep Dive: How the Hive Mind Works
-
-The **Hive Mind** enables Nimo to *learn once, answer forever*.
-
-### How it works:
-
-1. **Query Sanitization**  
-   Each prompt is converted into a safe filename.  
-   Example:  
-   `"Who is Iron Man?" → who_is_iron_man_.dat`
-
-2. **Cloud Lookup**  
-   Nimo checks a shared Dropbox knowledge folder for an existing answer.
-
-3. **Instant Retrieval**  
-   If found, the answer is served instantly — faster than calling the AI model.
-
-4. **Collective Learning**  
-   If not found, Nimo generates the answer using **Groq**, saves it locally, uploads it, and future users instantly benefit.
-
-This creates a **global, user-generated knowledge base** that grows smarter over time.
-
----
-
-## 📦 Installation
-
-1. Download **`NimoAssistant.exe`** from the Releases page  
-2. Run the installer  
-3. On first launch, the **auto-updater** ensures you are running **v3.0**  
-4. **Log in or register** to enable Hive Mind cloud syncing  
-
-You’re ready to go.
-
----
+| Version | Status | Highlights |
+|---------|--------|-----------|
+| **v3.0** | Current | Groq integration, OpenAI OSS 20B, redesigned chat UI, file staging, image compression |
+| **v2.5** | Stable | Input loop fixes, spam protection, dedicated login interface |
+| **v2.1** | Legacy | Dropbox sync implementation, basic file upload support |
+| **v2.0** | Legacy | CustomTkinter GUI, multi-threading, system dashboard |
+| **v1.9** | Beta | Async text generation migration |
 
 ## 📸 Screenshots
 
-### **Dark Mode**
+### Dark Mode
 
 ![Nimo Assistant screenshots1](https://i.imgur.com/JRbAwK7.png)
 ![Nimo Assistant screenshots2](https://i.imgur.com/fi0Z1Tn.png)
 ![Nimo Assistant screenshots3](https://i.imgur.com/fi0Z1Tn.png)
 
----
-
-### **Light Mode**
+### Light Mode
 
 ![Nimo Assistant screenshots4](https://i.imgur.com/iuTIs4o.png)
 ![Nimo Assistant screenshots5](https://i.imgur.com/h4kKHM3.png)
 ![Nimo Assistant screenshots6](https://i.imgur.com/5uJh65n.png)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
