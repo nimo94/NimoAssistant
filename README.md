@@ -57,7 +57,7 @@
 
 | Version | Status   | Key Changes |
 |--------|----------|-------------|
-| **v3.0** | Current | Groq Integration, Llama 3.3 70B, Chat UI Overhaul (Segoe UI), File Staging Area, Image Compression |
+| **v3.0** | Current | Groq Integration, Openai oss 20b, Chat UI Overhaul (Segoe UI), File Staging Area, Image Compression |
 | **v2.5** | Stable  | Fixed input loops, Added spam protection, Dedicated login GUI |
 | **v2.1** | Legacy  | Initial Dropbox Sync, Basic file uploading |
 | **v2.0** | Legacy  | Full GUI (CustomTkinter), Multi-threading, System Dashboard |
